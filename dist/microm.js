@@ -186,7 +186,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	     */
 	  }, {
 	    key: "getWav",
-	    value: function getWav() {}
+	    value: function getWav() { return this.recordRTC.getBlob(); }
 
 	    /**
 	     * Link to the mp3.
